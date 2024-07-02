@@ -1,0 +1,61 @@
+:root {
+  --main-font: "Merriweather", serif;
+  --second-font: "Inconsolata", monospace;
+}
+
+body {
+  background-color: #d7b0a0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  background-color: hsla(0, 0%, 100%, 0.812);
+  border-radius: 10px;
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.newsletter-details {
+  padding: 15px;
+  text-align: center;
+}
+
+.newsletter-details h1 {
+  font-family: var(--main-font);
+  color: #bf7469;
+  font-size: 36px;
+}
+
+.newsletter-details h3 {
+  color: hsla(0, 0%, 8%, 0.76);
+  font-family: var(--second-font);
+}
+
+img {
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#emailInput {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: #76a5aa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
